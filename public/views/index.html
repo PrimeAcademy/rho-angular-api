@@ -6,7 +6,9 @@
 
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js" charset="utf-8"></script>
-    <script src="scripts/client.js" charset="utf-8"></script>
+    <script src="scripts/module.js" charset="utf-8"></script>
+    <script src="scripts/main.controller.js" charset="utf-8"></script>
+    <script src="scripts/swapi.service.js" charset="utf-8"></script>
   </head>
   <body ng-app="starWarsApp" ng-controller="MainController as main">
     <select ng-model="main.selected" ng-change="main.getFilmData()">
